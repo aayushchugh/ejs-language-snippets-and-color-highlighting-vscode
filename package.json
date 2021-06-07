@@ -1,0 +1,61 @@
+{
+	"name": "ejs-snippets-and-color-highlighting",
+	"displayName": "EJS Snippets And Color Highlighting",
+	"description": "Add snippets for Ejs and some colors for better visualization",
+	"version": "0.0.1",
+	"publisher": "AyushChugh",
+	"author": {
+		"name": "Ayush chugh",
+		"email": "ayushchugh2006@gmail.com"
+	},
+	"icon": "/assets/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Ayush-Chugh-2006/ejs-language-snippets-and-color-highlighting-vscode"
+	},
+	"bugs": {
+		"url": "https://github.com/Ayush-Chugh-2006/ejs-language-snippets-and-color-highlighting-vscode/issues",
+		"email": "ayushchugh2006@gmail.com"
+	},
+	"engines": {
+		"vscode": "^1.56.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Language Packs",
+		"Snippets",
+		"Visualization"
+	],
+	"keywords": [
+		"EJS",
+		"ejs",
+		"snippets",
+		"ejs snippets",
+		"ejs syntax highlighting",
+		"highlighting",
+		"highlight",
+		"ejs highlighting",
+		"syntax highlighting"
+	],
+	"contributes": {
+		"grammars": [
+			{
+				"scopeName": "text.html.ejs",
+				"path": "./syntaxes/ejs.json",
+				"injectTo": [
+					"text.html"
+				],
+				"embeddedLanguages": {
+					"meta.embedded.block.ejs": "ejs",
+					"meta.embedded.block.javascript": "source.js"
+				}
+			}
+		],
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
