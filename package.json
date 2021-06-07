@@ -8,7 +8,7 @@
 		"name": "Ayush chugh",
 		"email": "ayushchugh2006@gmail.com"
 	},
-	"icon": "/assets/logo.png",
+	"icon": "assets/logo.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Ayush-Chugh-2006/ejs-language-snippets-and-color-highlighting-vscode"
@@ -57,5 +57,8 @@
 				"path": "./snippets/snippets.json"
 			}
 		]
+	},
+	"dependencies": {
+		"vsce": "^1.93.0"
 	}
 }
