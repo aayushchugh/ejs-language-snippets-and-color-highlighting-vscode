@@ -46,3 +46,5 @@ If you need documention on how to use EJS:
 
 [EJS Github](https://github.com/mde/ejs)
 [EJS Website](https://ejs.co/)
+
+## For contribution just do what you want to do and create a pull request
