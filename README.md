@@ -20,24 +20,26 @@ If there is anything that I missed or features you would like this to include. [
 
 **Snippets are found below.**
 
-| Snippet     | Output                             |
-| ----------- | ---------------------------------- |
-| `ejs`       | `<% %>` - No output tag            |
-| `ejsout`    | `<%= %>` - Outputs HTML value      |
-| `ejsesc`    | `<%- %>` - Outputs unescaped       |
-| `ejscom`    | `<%# %>` - Comment tag             |
-| `ejslit`    | `<%% %>` - Outputs Literal <%      |
-| `ejsinc`    | `include` statement                |
-| `ejsfor`    | `for` Javascript Loop              |
-| `ejseach`   | `forEach` Javascript Loop          |
-| `ejsforof`  | `forOf` Javascript Loop            |
-| `ejsforin`  | `forIn` Javascript Loop            |
-| `ejsif`     | `if` Statement with condition      |
-| `ejsifelse` | `if else` Statement with condition |
+| Snippet     | Output                                       |
+| ----------- | -------------------------------------------- |
+| `ejs`       | `<% %>` - No output tag                      |
+| `ejsout`    | `<%= %>` - Outputs HTML value                |
+| `ejsesc`    | `<%- %>` - Outputs unescaped                 |
+| `ejscom`    | `<%# %>` - Comment tag                       |
+| `ejslit`    | `<%% %>` - Outputs Literal <%                |
+| `ejsinc`    | `include` statement                          |
+| `ejsfor`    | `for` Javascript Loop                        |
+| `ejseach`   | `forEach` Javascript Loop                    |
+| `ejsforof`  | `forOf` Javascript Loop                      |
+| `ejsforin`  | `forIn` Javascript Loop                      |
+| `ejsif`     | `if` Statement with condition                |
+| `ejsifelse` | `if else` Statement with condition           |
+| `ejster`    | `tertiary operator` Statement with condition |
 
 #
 
 ![Video](./assets/recording.gif)
+
 ## EJS docs
 
 If you need documention on how to use EJS:

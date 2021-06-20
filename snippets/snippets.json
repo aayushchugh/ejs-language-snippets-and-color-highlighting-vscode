@@ -79,5 +79,10 @@
 			"<% } %>"
 		],
 		"description": "EJS if else statement"
+	},
+	"EJS Tertiary Operator": {
+		"prefix": "ejster",
+		"body": ["<%= ${1: condition} ? '${2: if}' : '${3: else}' %>"],
+		"description": "EJS tertiary operator"
 	}
 }

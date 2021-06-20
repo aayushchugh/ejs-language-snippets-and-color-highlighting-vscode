@@ -1,3 +1,7 @@
+# 0.0.3
+
+1. ### Added tertiary operator
+
 # 0.0.1
 
 ## Snippets
