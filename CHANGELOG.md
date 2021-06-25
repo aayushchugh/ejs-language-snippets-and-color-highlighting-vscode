@@ -1,3 +1,7 @@
+# 0.0.4
+
+1. ### Changed syntax of include statement
+
 # 0.0.3
 
 1. ### Added tertiary operator
