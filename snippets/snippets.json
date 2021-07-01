@@ -1,37 +1,37 @@
 {
 	"EJS No Output": {
 		"prefix": "ejs",
-		"body": ["<% $1 %> $2"],
+		"body": ["<% $1 %>$2"],
 		"description": "EJS No Output"
 	},
 
 	"EJS Output Value": {
 		"prefix": "ejsout",
-		"body": ["<%= $1 %> $2"],
+		"body": ["<%= $1 %>$2"],
 		"description": "EJS outputs no value"
 	},
 
 	"EJS Output Escaped": {
 		"prefix": "ejsesc",
-		"body": ["<%- $1 %> $2"],
+		"body": ["<%- $1 %>$2"],
 		"description": "EJS outputs value"
 	},
 
 	"EJS Comment": {
 		"prefix": "ejscom",
-		"body": ["<%# $1 %> $2"],
+		"body": ["<%# $1 %>$2"],
 		"description": "EJS comment tag with no output"
 	},
 
 	"EJS Literal": {
 		"prefix": "ejslit",
-		"body": ["<%% $1 %> $2"],
+		"body": ["<%% $1 %>$2"],
 		"description": "EJS outputs a literal '<%'"
 	},
 
 	"EJS Include": {
 		"prefix": "ejsinc",
-		"body": ["<%- include('$1') %> $2"],
+		"body": ["<%- include('$1') %>$2"],
 		"description": "EJS include statement"
 	},
 

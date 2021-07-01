@@ -1,3 +1,7 @@
+# 0.0.5
+
+1. ### removed ending spaces from ejs, ejsout, ejsesc, ejscom, ejslit, ejsinc because of error in html
+
 # 0.0.4
 
 1. ### Changed syntax of include statement

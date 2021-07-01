@@ -58,7 +58,13 @@
 			}
 		]
 	},
+	"scripts": {
+		"login": "vsce login AyushChugh",
+		"patch": "vsce publish patch",
+		"minor": "vsce publish minor",
+		"major": "vsce publish major"
+	},
 	"dependencies": {
-		"vsce": "^1.93.0"
+		"vsce": "^1.95.0"
 	}
 }
